@@ -1,0 +1,238 @@
+<risks xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.4.1.1" xmlns="http://www.witsml.org/schemas/1series" xsi:schemaLocation="http://www.witsml.org/schemas/1series http://w3.energistics.org/schema/WITSML_v1.4.1.1_Data_Schema/witsml_v1.4.1.1_data/xsd_schemas/obj_risk.xsd">
+  <risk uidWell="d836ebf81198497bb0cdcbe731fdc372" uidWellbore="73301dce3d17454db262fc65874d0b19" uid="7e7e78663cab4073a37374cac5d5538c">
+    <nameWell>Well 23</nameWell>
+    <nameWellbore>Well 23</nameWellbore>
+    <name>Logistics</name>
+    <type>risk</type>
+    <category>unknown</category>
+    <severityLevel>1</severityLevel>
+    <probabilityLevel>2</probabilityLevel>
+    <summary>Waiting on services &amp; Personnel</summary>
+    <customData>
+      <cd_risk xmlns:slbrisk="http://schema.slb.com/SlbRisk/1.0.0.0" xmlns:xsi="http://schema.slb.com/SlbRisk/1.0.0.0  http://teamspace.slb.com/sites/RealTime/RTSchema/Schemas/Witsml_v1.4.1.1/cd_risk_v1.0.0.0.xsd" witsmlVersion="1.0.0.0" targetNamespace="http://schema.slb.com/SlbRisk/1.0.0.0" xsi:schemaLocation="http://schema.slb.com/SlbRisk/1.0.0.0  http://teamspace.slb.com/sites/RealTime/RTSchema/Schemas/Witsml_v1.4.1.1/cd_risk_v1.0.0.0.xsd" xmlns="">
+        <slbrisk:prevention />
+        <slbrisk:cause />
+        <slbrisk:consequence />
+        <slbrisk:lossCategory>Asset - 3rd Party</slbrisk:lossCategory>
+        <slbrisk:residualSeverity>1</slbrisk:residualSeverity>
+        <slbrisk:residualProbability>2</slbrisk:residualProbability>
+        <slbrisk:modifiedDate>2017-08-18T10:32:50.4838887Z</slbrisk:modifiedDate>
+        <slbrisk:version>57654</slbrisk:version>
+        <slbrisk:producer>DrillPlan</slbrisk:producer>
+        <slbrisk:classification>Private</slbrisk:classification>
+      </cd_risk>
+    </customData>
+  </risk>
+  <risk uidWell="d836ebf81198497bb0cdcbe731fdc372" uidWellbore="73301dce3d17454db262fc65874d0b19" uid="a05e3be7329546a5967054114044795b">
+    <nameWell>Well 23</nameWell>
+    <nameWellbore>Well 23</nameWellbore>
+    <name>Top drive failure</name>
+    <type>risk</type>
+    <category>equipment failure</category>
+    <subCategory>hoisting equipment failure</subCategory>
+    <severityLevel>3</severityLevel>
+    <probabilityLevel>1</probabilityLevel>
+    <customData>
+      <cd_risk xmlns:slbrisk="http://schema.slb.com/SlbRisk/1.0.0.0" xmlns:xsi="http://schema.slb.com/SlbRisk/1.0.0.0  http://teamspace.slb.com/sites/RealTime/RTSchema/Schemas/Witsml_v1.4.1.1/cd_risk_v1.0.0.0.xsd" witsmlVersion="1.0.0.0" targetNamespace="http://schema.slb.com/SlbRisk/1.0.0.0" xsi:schemaLocation="http://schema.slb.com/SlbRisk/1.0.0.0  http://teamspace.slb.com/sites/RealTime/RTSchema/Schemas/Witsml_v1.4.1.1/cd_risk_v1.0.0.0.xsd" xmlns="">
+        <slbrisk:prevention />
+        <slbrisk:cause />
+        <slbrisk:consequence />
+        <slbrisk:hazardCategory>hoisting equipment failure</slbrisk:hazardCategory>
+        <slbrisk:lossCategory>Asset - 3rd Party</slbrisk:lossCategory>
+        <slbrisk:residualSeverity>3</slbrisk:residualSeverity>
+        <slbrisk:residualProbability>1</slbrisk:residualProbability>
+        <slbrisk:modifiedDate>2017-08-18T10:32:50.5848709Z</slbrisk:modifiedDate>
+        <slbrisk:version>57654</slbrisk:version>
+        <slbrisk:producer>DrillPlan</slbrisk:producer>
+        <slbrisk:classification>Private</slbrisk:classification>
+      </cd_risk>
+    </customData>
+  </risk>
+  <risk uidWell="d836ebf81198497bb0cdcbe731fdc372" uidWellbore="73301dce3d17454db262fc65874d0b19" uid="6c4a45baa3264a5390560157e1df7414">
+    <nameWell>Well 23</nameWell>
+    <nameWellbore>Well 23</nameWellbore>
+    <name>Surface casing cement integrity</name>
+    <type>risk</type>
+    <category>casing</category>
+    <subCategory>early cement setup</subCategory>
+    <mdHoleStart uom="m">0</mdHoleStart>
+    <mdHoleEnd uom="m">91.44</mdHoleEnd>
+    <severityLevel>2</severityLevel>
+    <probabilityLevel>2</probabilityLevel>
+    <customData>
+      <cd_risk xmlns:slbrisk="http://schema.slb.com/SlbRisk/1.0.0.0" xmlns:xsi="http://schema.slb.com/SlbRisk/1.0.0.0  http://teamspace.slb.com/sites/RealTime/RTSchema/Schemas/Witsml_v1.4.1.1/cd_risk_v1.0.0.0.xsd" witsmlVersion="1.0.0.0" targetNamespace="http://schema.slb.com/SlbRisk/1.0.0.0" xsi:schemaLocation="http://schema.slb.com/SlbRisk/1.0.0.0  http://teamspace.slb.com/sites/RealTime/RTSchema/Schemas/Witsml_v1.4.1.1/cd_risk_v1.0.0.0.xsd" xmlns="">
+        <slbrisk:prevention />
+        <slbrisk:cause />
+        <slbrisk:consequence />
+        <slbrisk:hazardCategory>early cement setup</slbrisk:hazardCategory>
+        <slbrisk:lossCategory>Asset - 3rd Party</slbrisk:lossCategory>
+        <slbrisk:residualSeverity>2</slbrisk:residualSeverity>
+        <slbrisk:residualProbability>2</slbrisk:residualProbability>
+        <slbrisk:modifiedDate>2017-08-18T10:32:50.6648373Z</slbrisk:modifiedDate>
+        <slbrisk:version>57654</slbrisk:version>
+        <slbrisk:producer>DrillPlan</slbrisk:producer>
+        <slbrisk:classification>Private</slbrisk:classification>
+      </cd_risk>
+    </customData>
+  </risk>
+  <risk uidWell="d836ebf81198497bb0cdcbe731fdc372" uidWellbore="73301dce3d17454db262fc65874d0b19" uid="a5980ffe9788406086fcc13c7d975c85">
+    <nameWell>Well 23</nameWell>
+    <nameWellbore>Well 23</nameWellbore>
+    <name>Rig contractor surface equipment</name>
+    <type>risk</type>
+    <category>other</category>
+    <subCategory>other</subCategory>
+    <severityLevel>3</severityLevel>
+    <probabilityLevel>1</probabilityLevel>
+    <customData>
+      <cd_risk xmlns:slbrisk="http://schema.slb.com/SlbRisk/1.0.0.0" xmlns:xsi="http://schema.slb.com/SlbRisk/1.0.0.0  http://teamspace.slb.com/sites/RealTime/RTSchema/Schemas/Witsml_v1.4.1.1/cd_risk_v1.0.0.0.xsd" witsmlVersion="1.0.0.0" targetNamespace="http://schema.slb.com/SlbRisk/1.0.0.0" xsi:schemaLocation="http://schema.slb.com/SlbRisk/1.0.0.0  http://teamspace.slb.com/sites/RealTime/RTSchema/Schemas/Witsml_v1.4.1.1/cd_risk_v1.0.0.0.xsd" xmlns="">
+        <slbrisk:prevention />
+        <slbrisk:cause />
+        <slbrisk:consequence />
+        <slbrisk:hazardCategory>other</slbrisk:hazardCategory>
+        <slbrisk:lossCategory>Asset - 3rd Party</slbrisk:lossCategory>
+        <slbrisk:residualSeverity>3</slbrisk:residualSeverity>
+        <slbrisk:residualProbability>1</slbrisk:residualProbability>
+        <slbrisk:modifiedDate>2017-08-18T10:32:50.7481797Z</slbrisk:modifiedDate>
+        <slbrisk:version>57654</slbrisk:version>
+        <slbrisk:producer>DrillPlan</slbrisk:producer>
+        <slbrisk:classification>Private</slbrisk:classification>
+      </cd_risk>
+    </customData>
+  </risk>
+  <risk uidWell="d836ebf81198497bb0cdcbe731fdc372" uidWellbore="73301dce3d17454db262fc65874d0b19" uid="09c935bd8a3346ca80aa608cd99b2440">
+    <nameWell>Well 23</nameWell>
+    <nameWellbore>Well 23</nameWellbore>
+    <name>Liner Hanger Failure</name>
+    <type>risk</type>
+    <category>casing</category>
+    <subCategory>completion or casing</subCategory>
+    <mdHoleStart uom="m">256.03200000000004</mdHoleStart>
+    <mdHoleEnd uom="m">301.752</mdHoleEnd>
+    <severityLevel>3</severityLevel>
+    <probabilityLevel>2</probabilityLevel>
+    <customData>
+      <cd_risk xmlns:slbrisk="http://schema.slb.com/SlbRisk/1.0.0.0" xmlns:xsi="http://schema.slb.com/SlbRisk/1.0.0.0  http://teamspace.slb.com/sites/RealTime/RTSchema/Schemas/Witsml_v1.4.1.1/cd_risk_v1.0.0.0.xsd" witsmlVersion="1.0.0.0" targetNamespace="http://schema.slb.com/SlbRisk/1.0.0.0" xsi:schemaLocation="http://schema.slb.com/SlbRisk/1.0.0.0  http://teamspace.slb.com/sites/RealTime/RTSchema/Schemas/Witsml_v1.4.1.1/cd_risk_v1.0.0.0.xsd" xmlns="">
+        <slbrisk:prevention />
+        <slbrisk:cause />
+        <slbrisk:consequence />
+        <slbrisk:hazardCategory>completion or casing</slbrisk:hazardCategory>
+        <slbrisk:lossCategory>Asset - 3rd Party</slbrisk:lossCategory>
+        <slbrisk:residualSeverity>3</slbrisk:residualSeverity>
+        <slbrisk:residualProbability>2</slbrisk:residualProbability>
+        <slbrisk:modifiedDate>2017-08-18T10:32:50.8331984Z</slbrisk:modifiedDate>
+        <slbrisk:version>57654</slbrisk:version>
+        <slbrisk:producer>DrillPlan</slbrisk:producer>
+        <slbrisk:classification>Private</slbrisk:classification>
+      </cd_risk>
+    </customData>
+  </risk>
+  <risk uidWell="d836ebf81198497bb0cdcbe731fdc372" uidWellbore="73301dce3d17454db262fc65874d0b19" uid="053741d5b9d64e58b4e4756624fb48d5">
+    <nameWell>Well 23</nameWell>
+    <nameWellbore>Well 23</nameWellbore>
+    <name>Mud losses</name>
+    <type>risk</type>
+    <category>hydraulics</category>
+    <subCategory>loss circulation</subCategory>
+    <mdHoleStart uom="m">609.6</mdHoleStart>
+    <mdHoleEnd uom="m">731.52</mdHoleEnd>
+    <severityLevel>4</severityLevel>
+    <probabilityLevel>2</probabilityLevel>
+    <customData>
+      <cd_risk xmlns:slbrisk="http://schema.slb.com/SlbRisk/1.0.0.0" xmlns:xsi="http://schema.slb.com/SlbRisk/1.0.0.0  http://teamspace.slb.com/sites/RealTime/RTSchema/Schemas/Witsml_v1.4.1.1/cd_risk_v1.0.0.0.xsd" witsmlVersion="1.0.0.0" targetNamespace="http://schema.slb.com/SlbRisk/1.0.0.0" xsi:schemaLocation="http://schema.slb.com/SlbRisk/1.0.0.0  http://teamspace.slb.com/sites/RealTime/RTSchema/Schemas/Witsml_v1.4.1.1/cd_risk_v1.0.0.0.xsd" xmlns="">
+        <slbrisk:prevention />
+        <slbrisk:cause />
+        <slbrisk:consequence />
+        <slbrisk:hazardCategory>loss circulation</slbrisk:hazardCategory>
+        <slbrisk:lossCategory>Asset - 3rd Party</slbrisk:lossCategory>
+        <slbrisk:residualSeverity>4</slbrisk:residualSeverity>
+        <slbrisk:residualProbability>2</slbrisk:residualProbability>
+        <slbrisk:modifiedDate>2017-08-18T10:32:50.9064907Z</slbrisk:modifiedDate>
+        <slbrisk:version>57654</slbrisk:version>
+        <slbrisk:producer>DrillPlan</slbrisk:producer>
+        <slbrisk:classification>Private</slbrisk:classification>
+      </cd_risk>
+    </customData>
+  </risk>
+  <risk uidWell="d836ebf81198497bb0cdcbe731fdc372" uidWellbore="73301dce3d17454db262fc65874d0b19" uid="2447ed3fc32d432c853a4694fa5a102a">
+    <nameWell>Well 23</nameWell>
+    <nameWellbore>Well 23</nameWellbore>
+    <name>Stuck pipe</name>
+    <type>risk</type>
+    <category>mechanical</category>
+    <subCategory>stuck pipe</subCategory>
+    <extendCategory>stuckpipe - differential</extendCategory>
+    <mdHoleStart uom="m">640.08</mdHoleStart>
+    <mdHoleEnd uom="m">853.44</mdHoleEnd>
+    <severityLevel>3</severityLevel>
+    <probabilityLevel>4</probabilityLevel>
+    <customData>
+      <cd_risk xmlns:slbrisk="http://schema.slb.com/SlbRisk/1.0.0.0" xmlns:xsi="http://schema.slb.com/SlbRisk/1.0.0.0  http://teamspace.slb.com/sites/RealTime/RTSchema/Schemas/Witsml_v1.4.1.1/cd_risk_v1.0.0.0.xsd" witsmlVersion="1.0.0.0" targetNamespace="http://schema.slb.com/SlbRisk/1.0.0.0" xsi:schemaLocation="http://schema.slb.com/SlbRisk/1.0.0.0  http://teamspace.slb.com/sites/RealTime/RTSchema/Schemas/Witsml_v1.4.1.1/cd_risk_v1.0.0.0.xsd" xmlns="">
+        <slbrisk:prevention />
+        <slbrisk:cause />
+        <slbrisk:consequence />
+        <slbrisk:hazardCategory>stuckpipe - differential</slbrisk:hazardCategory>
+        <slbrisk:lossCategory>Asset - 3rd Party</slbrisk:lossCategory>
+        <slbrisk:residualSeverity>3</slbrisk:residualSeverity>
+        <slbrisk:residualProbability>4</slbrisk:residualProbability>
+        <slbrisk:modifiedDate>2017-08-18T10:32:50.9779085Z</slbrisk:modifiedDate>
+        <slbrisk:version>57654</slbrisk:version>
+        <slbrisk:producer>DrillPlan</slbrisk:producer>
+        <slbrisk:classification>Private</slbrisk:classification>
+      </cd_risk>
+    </customData>
+  </risk>
+  <risk uidWell="d836ebf81198497bb0cdcbe731fdc372" uidWellbore="73301dce3d17454db262fc65874d0b19" uid="706771fb2c2047a192fe15636149dd3c">
+    <nameWell>Well 23</nameWell>
+    <nameWellbore>Well 23</nameWellbore>
+    <name>Stuck risk</name>
+    <type>risk</type>
+    <category>unknown</category>
+    <mdHoleStart uom="m">457.20000000000005</mdHoleStart>
+    <mdHoleEnd uom="m">487.68</mdHoleEnd>
+    <severityLevel>0</severityLevel>
+    <probabilityLevel>0</probabilityLevel>
+    <customData>
+      <cd_risk xmlns:slbrisk="http://schema.slb.com/SlbRisk/1.0.0.0" xmlns:xsi="http://schema.slb.com/SlbRisk/1.0.0.0  http://teamspace.slb.com/sites/RealTime/RTSchema/Schemas/Witsml_v1.4.1.1/cd_risk_v1.0.0.0.xsd" witsmlVersion="1.0.0.0" targetNamespace="http://schema.slb.com/SlbRisk/1.0.0.0" xsi:schemaLocation="http://schema.slb.com/SlbRisk/1.0.0.0  http://teamspace.slb.com/sites/RealTime/RTSchema/Schemas/Witsml_v1.4.1.1/cd_risk_v1.0.0.0.xsd" xmlns="">
+        <slbrisk:prevention />
+        <slbrisk:cause />
+        <slbrisk:consequence />
+        <slbrisk:lossCategory>Asset - 3rd Party</slbrisk:lossCategory>
+        <slbrisk:residualSeverity>0</slbrisk:residualSeverity>
+        <slbrisk:residualProbability>0</slbrisk:residualProbability>
+        <slbrisk:modifiedDate>2017-08-18T10:32:51.1349828Z</slbrisk:modifiedDate>
+        <slbrisk:version>57654</slbrisk:version>
+        <slbrisk:producer>DrillPlan</slbrisk:producer>
+        <slbrisk:classification>Private</slbrisk:classification>
+      </cd_risk>
+    </customData>
+  </risk>
+  <risk uidWell="d836ebf81198497bb0cdcbe731fdc372" uidWellbore="73301dce3d17454db262fc65874d0b19" uid="e1147a22542e45b1b679c4848225e358">
+    <nameWell>Well 23</nameWell>
+    <nameWellbore>Well 23</nameWellbore>
+    <name>Well control</name>
+    <type>risk</type>
+    <category>hydraulics</category>
+    <subCategory>other influx or kicks</subCategory>
+    <mdHoleStart uom="m">1767.8400000000001</mdHoleStart>
+    <mdHoleEnd uom="m">2133.6</mdHoleEnd>
+    <diaHole uom="m">0.21589999999999998</diaHole>
+    <severityLevel>4</severityLevel>
+    <probabilityLevel>3</probabilityLevel>
+    <customData>
+      <cd_risk xmlns:slbrisk="http://schema.slb.com/SlbRisk/1.0.0.0" xmlns:xsi="http://schema.slb.com/SlbRisk/1.0.0.0  http://teamspace.slb.com/sites/RealTime/RTSchema/Schemas/Witsml_v1.4.1.1/cd_risk_v1.0.0.0.xsd" witsmlVersion="1.0.0.0" targetNamespace="http://schema.slb.com/SlbRisk/1.0.0.0" xsi:schemaLocation="http://schema.slb.com/SlbRisk/1.0.0.0  http://teamspace.slb.com/sites/RealTime/RTSchema/Schemas/Witsml_v1.4.1.1/cd_risk_v1.0.0.0.xsd" xmlns="">
+        <slbrisk:prevention />
+        <slbrisk:cause />
+        <slbrisk:consequence />
+        <slbrisk:hazardCategory>other influx or kicks</slbrisk:hazardCategory>
+        <slbrisk:lossCategory>Asset - 3rd Party</slbrisk:lossCategory>
+        <slbrisk:residualSeverity>4</slbrisk:residualSeverity>
+        <slbrisk:residualProbability>3</slbrisk:residualProbability>
+        <slbrisk:modifiedDate>2017-08-31T15:38:19.723531Z</slbrisk:modifiedDate>
+        <slbrisk:version>100456</slbrisk:version>
+        <slbrisk:producer>DrillPlan</slbrisk:producer>
+        <slbrisk:classification>Private</slbrisk:classification>
+      </cd_risk>
+    </customData>
+  </risk>
+</risks>
